@@ -1,800 +1,765 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <title>Styles - Ceevee 2.0</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Hyeyeon's personal website</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <!-- CSS
+	<!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/vendor.css">
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
 
-    <style type="text/css" media="screen">
-        .s-styles { 
-            background-color: white;
-            padding-top: calc(4.5 * var(--space));
-            padding-bottom: calc(4.5 * var(--space));
-            position: relative;
-        }
-        .s-styles .intro h1 {
-            margin-top: 0;
-        }
-    </style>
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
 
-    <!-- script
-    ================================================== -->
-    <script defer src="js/vendor/fontawesome/all.min.js"></script>
-
-    <!-- favicons
-    ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
 
 </head>
 
-<body id="top" class="ss-preload">
-
-
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader"></div>
-    </div>
-
-
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
-        <div class="row s-header__nav-wrap">
-            <nav class="s-header__nav">
-                <ul>
-                    <li class="current"><a href="index.html">Home</a></li>
-                    <li><a href="index.html#about">About</a></li>
-                    <li><a href="index.html#resume">Resume</a></li>
-                    <li><a href="index.html#portfolio">Works</a></li>
-                    <li><a href="index.html#testimonials">Testimonials</a></li>
-                    <li><a href="index.html#contact">Say Hello</a></li>
-                </ul>
-            </nav>
-        </div> <!-- end row -->
-        
-        <a class="s-header__menu-toggle" href="#0" title="Menu">
-            <span class="s-header__menu-icon"></span>
-        </a>
-    </header> <!-- end s-header -->
-
-
-    <!-- hero
-    ================================================== -->
-    <section id="hero" class="s-hero target-section">
-
-        <div class="s-hero__bg rellax" data-rellax-speed="-7"></div>
-
-        <div class="row s-hero__content">
-            <div class="column">
-
-                <div class="s-hero__content-about">
-
-                    <h1>I'm Jonathan Doe.</h1>
-
-                    <h3>
-                    I'm a Manila based <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and
-                    effective visual identities for companies of all sizes around the globe. Let's <a href="#about">start scrolling</a>
-                    and learn more <a href="#about">about me</a>.
-                    </h3>
-
-                    <div class="s-hero__content-social">
-                        <a href="#0"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
-                        <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                        <a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i></a>
-                        <a href="#0"><i class="fab fa-behance" aria-hidden="true"></i></a>
-                        <a href="#0"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-                    </div>
-
-                </div> <!-- end s-hero__content-about -->
-
-            </div>
-        </div> <!-- s-hero__content -->
-
-        <div class="s-hero__scroll">
-            <a href="#styles" class="s-hero__scroll-link smoothscroll">
-                <span class="scroll-arrow">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M18.707 12.707L17.293 11.293 13 15.586 13 6 11 6 11 15.586 6.707 11.293 5.293 12.707 12 19.414z"></path></svg>
-                </span>
-                <span class="scroll-text">Scroll Down</span>
-            </a>
-        </div> <!-- s-hero__scroll -->
-
-    </section> <!-- end s-hero -->
-
-
-    <!-- s-styles
-    ================================================== -->
-    <section id="styles" class="s-styles">
-
-        <div class="row">
-
-            <div class="column large-12 intro">
-
-                <h1>Style Guide.</h1>
-
-                <p class="lead">Lorem ipsum Officia elit ad tempor dolore est ex incididunt incididunt occaecat culpa deserunt 
-                sunt labore in cillum ullamco magna in Excepteur consequat in reprehenderit proident mollit incididunt officia commodo.
-                Duis ea officia sed dolor pariatur enim dolore dolore quis incididunt nulla exercitation commodo veniam et ea incididunt.
-                </p>
-
-                <hr class="fancy">
-            </div>
-
-        </div> <!-- end row -->
-
-        <div class="row">
-
-            <div class="column large-6 tab-12">
-
-                <h3>Paragraph and Image</h3>
-
-                <p><a href="#"><img width="120" height="120" class="h-pull-left" alt="sample-image" src="images/sample-image.jpg"></a>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum.Cras id urna. Morbi 
-                tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, 
-                purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla magna. 
-                Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit magna id 
-                neque posuere nunc justo tempus leo. </p>
-
-                <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. 
-                Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. 
-                Donec mattis, purus nec placerat bibendum, dui pede condimentumodio, ac blandit ante orci ut diam.	
-                </p>
-
-                <p>A <a href="#">link</a>,
-                <abbr title="this really isn't a very good description">abbrebation</abbr>,
-                <strong>strong text</strong>,
-                <em>em text</em>,
-                <del>deleted text</del>, and
-                <mark>this is a mark text.</mark>
-                <code>.code</code>
-                </p>
-
-            </div>
-
-            <div class="column large-6 tab-12">
-
-                <h3>Drop Caps</h3>
-
-                <p class="drop-cap">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
-                Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the 
-                necessary regelialia. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, 
-                euposuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, 
-                ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum, 
-                lorem tellus eleifend magna, eget fringilla velit magna id neque.
-                </p>
-
-                <h3>Small Print</h3>
-
-                <p><small>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero.</small></p>
-
-            </div>
-
-        </div> <!-- end row -->
-
-        <div class="row">
-
-            <div class="column large-6 tab-12">
-
-                <h3 class="h-add-bottom">Pull Quotes</h3>
-
-                <p>
-                Perspiciatis nemo unde et nobis modi consequatur officia amet. Ut enim 
-                tenetur provident maiores. Perspiciatis asperiores incidunt sequi 
-                quisquam. Enim aut. 
-                </p>
-
-                <figure class="pull-quote">
-                    <blockquote>
-                        <p>
-                        When you look in the eyes of grace, when you meet grace, 
-                        when you embrace grace, when you see the nail prints in 
-                        grace’s hands and the fire in his eyes, when you feel his 
-                        relentless love for you - it will not motivate you to sin. 
-                        It will motivate you to righteousness.
-                        </p>
-
-                        <footer>
-                            <cite>Judah Smith</cite>
-                        </footer>
-                    </blockquote>
-                </figure>
-
-            </div>
-
-            <div class="column large-6 tab-12">
-
-                <h3 class="h-add-bottom">Block Quotes</h3>
-
-                <blockquote cite="http://where-i-got-my-info-from.com">
-                    <p>
-                    For God so loved the world, that he gave his only Son, that whoever believes in 
-                    him should not perish but have eternal life. For God did not send his Son into 
-                    the world to condemn the world, but in order that the world might be 
-                    saved through him.
-                    </p>
-
-                    <footer>
-                        <cite>
-                            <a href="#0">John 3:16-17 ESV</a>
-                        </cite>
-                    </footer>
-
-                </blockquote>
-
-                <blockquote>
-                    <p>There is a God-shaped vacuum in the heart of each man which cannot be satisfied 
-                    by any created thing but only by God the Creator.</p>
-
-                    <footer>
-                        <cite>Blaise Pascal</cite>
-                    </footer>
-
-                </blockquote>
-
-            </div>
-
-        </div> <!-- end row -->
-
-        <div class="row h-add-half-bottom">
-
-            <div class="column large-6 tab-12">
-
-                <h3>Example Lists</h3>
-
-                <ol>
-                    <li>Here is an example</li>
-                    <li>of an ordered list.</li>
-                    <li>A parent list item.
-                        <ul>
-                            <li>one</li>
-                            <li>two</li>
-                            <li>three</li>
-                        </ul>
-                        </li>
-                        <li>A list item.</li>
-                    </ol>
-
-                <ul class="disc">
-                    <li>Here is an example</li>
-                    <li>of an unordered list.</li>
-                </ul>
-
-                <h3>Definition Lists</h3>
-
-                <h5>a) Multi-line Definitions (default) </h5>
-
-                <dl class="dictionary-style">
-                    <dt><strong>This is a term</strong></dt>
-                        <dd>this is the definition of that term, which both live in a <code>dl</code>.</dd>
-                    <dt><strong>Another Term</strong></dt>
-                        <dd>And it gets a definition too, which is this line</dd>
-                        <dd>This is a 2<sup>nd</sup> definition for a single term. A <code>dt</code> may be followed by multiple <code>dd</code>s.</dd>
-                </dl>
-
-                <h3 class="h-add-bottom">Skill Bars</h3>
-
-                <ul class="skill-bars-fat">
-                    <li>
-                    <div class="progress percent85"></div>
-                    <strong>HTML</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent85"></div>
-                    <strong>CSS</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent65"></div>
-                    <strong>Javascript</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent90"></div>
-                    <strong>Figma</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent75"></div>
-                    <strong>Illustrator</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent60"></div>
-                    <strong>Photoshop</strong>
-                    </li>
-                </ul>
-
-            </div>
-
-            <div class="column large-6 tab-12">
-
-                <h3 class="h-add-bottom">Buttons</h3>
-
-                <p>
-                    <a class="btn btn--primary h-full-width" href="#0">Primary Button</a>
-                    <a class="btn h-full-width" href="#0">Default Button</a>
-                    <a class="btn btn--stroke h-full-width" href="#0">Stroke Button</a>
-                </p>
-
-                <h3>Stats Tabs</h3>
-
-                <ul class="stats-tabs">
-                    <li><a href="#0">1,234 <em>Peter</em></a></li>
-                    <li><a href="#0">567 <em>James</em></a></li>
-                    <li><a href="#0">23,456 <em>John</em></a></li>
-                    <li><a href="#0">3,456 <em>Andrew</em></a></li>
-                    <li><a href="#0">456 <em>Philip</em></a></li>
-                    <li><a href="#0">26 <em>Matthew</em></a></li>
-                </ul>
-
-                <h3 class="h-add-bottom">Code</h3>
-
-<pre><code class="language-css">
-    code {
-    font-size: 1.4rem;
-    margin: 0 .2rem;
-    padding: .2rem .6rem;
-    white-space: nowrap;
-    background: #F1F1F1;
-    border: 1px solid #E1E1E1;	
-    border-radius: 3px;
-    }
-</code></pre>
-
-            </div>
-
-        </div> <!-- end row -->
-
-        <div class="row h-add-half-bottom">
-
-            <div class="column large-6 tab-12">
-                    
-                <h1>H1 Heading</h1>
-                <p>Doloremque dolor voluptas est sequi omnis. Pariatur ut aut. Sed enim tempora qui veniam qui cum vel. 
-                Voluptas odit at vitae minima. In assumenda ut. Voluptatem totam impedit accusantium reiciendis excepturi aut qui accusamus praesentium.</p>
-
-                <h2>H2 Heading</h2>
-                <p>Doloremque dolor voluptas est sequi omnis. Pariatur ut aut. Sed enim tempora qui veniam qui cum vel. 
-                Voluptas odit at vitae minima. In assumenda ut. Voluptatem totam impedit accusantium reiciendis excepturi aut qui accusamus praesentium.</p>
-
-                <h3>H3 Heading</h3>
-                <p>Doloremque dolor voluptas est sequi omnis. Pariatur ut aut. Sed enim tempora qui veniam qui cum vel. 
-                Voluptas odit at vitae minima. In assumenda ut. Voluptatem totam impedit accusantium reiciendis excepturi aut qui accusamus praesentium.</p>
-
-                
-            </div>
-
-            <div class="column large-6 tab-12">
-                <h4>H4 Heading</h4>
-                <p>Doloremque dolor voluptas est sequi omnis. Pariatur ut aut. Sed enim tempora qui veniam qui cum vel. 
-                Voluptas odit at vitae minima. In assumenda ut. Voluptatem totam impedit accusantium reiciendis excepturi aut qui accusamus praesentium.</p>
-
-                <h5>H5 Heading</h5>
-                <p>Doloremque dolor voluptas est sequi omnis. Pariatur ut aut. Sed enim tempora qui veniam qui cum vel. 
-                Voluptas odit at vitae minima. In assumenda ut. Voluptatem totam impedit accusantium reiciendis excepturi aut qui accusamus praesentium.</p>
-
-                <h6>H6 Heading</h6>
-                <p>Doloremque dolor voluptas est sequi omnis. Pariatur ut aut. Sed enim tempora qui veniam qui cum vel. 
-                Voluptas odit at vitae minima. In assumenda ut. Voluptatem totam impedit accusantium reiciendis excepturi aut qui accusamus praesentium.</p>
-    
-                
-            </div>
-
-        </div> <!-- end row -->
-
-        <div class="row h-add-half-bottom">
-
-            <div class="column large-6 tab-12">
-
-                <h3 class="h-add-bottom">Responsive Image</h3>
-
-                <figure>
-                    <img src="images/wheel-500.jpg" 
-                    srcset="images/wheel-1000.jpg 1000w, 
-                    images/wheel-500.jpg 500w" 
-                    sizes="(max-width: 1000px) 100vw, 1000px" alt="">
-
-                    <figcaption>
-                        Here is some random picture.
-                    </figcaption>
-                </figure>
-
-            </div>
-
-            <div class="column large-6 tab-12">
-
-                <h3 class="h-add-bottom">Responsive video</h3>
-
-                <div class="video-container">
-                <iframe title="vimeo-player" src="https://player.vimeo.com/video/14592941" width="640" height="360" frameborder="0" allowfullscreen></iframe>                
-                </div>
-
-            </div>
-            
-        </div> <!-- end row -->
-
-        <div class="row h-add-bottom">
-
-            <div class="column large-12">
-
-                <h3>Tables</h3>
-                <p>Be sure to use properly formed table markup with <code>&lt;thead&gt;</code> and <code>&lt;tbody&gt;</code> when building a <code>table</code>.</p>
-
-                <div class="table-responsive">
-
-                    <table>
-                            <thead>
-                            <tr>
-                                <th>Name</th>
-                                <th>Age</th>
-                                <th>Sex</th>
-                                <th>Location</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td>William J. Seymour</td>
-                                <td>34</td>
-                                <td>Male</td>
-                                <td>Azusa Street</td>
-                            </tr>
-                            <tr>
-                                <td>Jennie Evans Moore</td>
-                                <td>30</td>
-                                <td>Female</td>
-                                <td>Azusa Street</td>
-                            </tr>
-                            </tbody>
-                    </table>
-
-                </div>
-
-            </div>
-            
-        </div> <!-- end row -->
-
-        <div class="row">
-
-            <div class="column large-12">
-                <h3>Pagination</h3>
-
-                <nav class="pgn">
-                    <ul>
-                        <li>
-                            <a class="pgn__prev" href="#0">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12.707 17.293L8.414 13H18v-2H8.414l4.293-4.293-1.414-1.414L4.586 12l6.707 6.707z"/></svg>
-                            </a>
-                        </li>
-                        <li><a class="pgn__num" href="#0">1</a></li>
-                        <li><span class="pgn__num current">2</span></li>
-                        <li><a class="pgn__num" href="#0">3</a></li>
-                        <li><a class="pgn__num" href="#0">4</a></li>
-                        <li><a class="pgn__num" href="#0">5</a></li>
-                        <li><span class="pgn__num dots">…</span></li>
-                        <li><a class="pgn__num" href="#0">8</a></li>
-                        <li>
-                            <a class="pgn__next" href="#0">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M11.293 17.293l1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"/></svg>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-
-        </div> <!-- end row -->
-
-
-        <div class="row">
-
-            <div class="column large-6 tab-12">
-
-                <h3 class="h-add-bottom">Form Styles</h3>
-
-                <form>
-                    <div>
-                        <label for="sampleInput">Your email</label>
-                        <input class="h-full-width" type="email" placeholder="test@mailbox.com" id="sampleInput">
-                    </div>
-                    <div>
-                        <label for="sampleRecipientInput">Reason for contacting</label>
-                        <div class="ss-custom-select">
-                            <select class="h-full-width" id="sampleRecipientInput">
-                                <option value="Option 1">Questions</option>
-                                <option value="Option 2">Report</option>
-                                <option value="Option 3">Others</option>
-                            </select>
-                        </div>
-                    </div>
-                    
-                    <label for="exampleMessage">Message</label>
-                    <textarea class="h-full-width" placeholder="Your message" id="exampleMessage"></textarea>
-
-                    <label class="h-add-bottom">
-                        <input type="checkbox">
-                        <span class="label-text">Send a copy to yourself</span>
-                    </label>
-                
-                    <input class="btn--primary h-full-width" type="submit" value="Submit">
-                </form>
-
-            </div>
-
-            <div class="column large-6 tab-12">
-
-                <h3>Alert Boxes</h3>
-
-                <br>
-                
-                <div class="alert-box alert-box--error">
-                    <p>Error Message. Your Message Goes Here.</p>
-                    <span class="alert-box__close"></span>
-                </div><!-- end error -->
-                        
-                <div class="alert-box alert-box--success">
-                    <p>Success Message. Your Message Goes Here.</p>
-                    <span class="alert-box__close"></span>
-                </div><!-- end success -->
-                        
-                <div class="alert-box alert-box--info">
-                    <p>Info Message. Your Message Goes Here.</p>
-                    <span class="alert-box__close"></span>
-                </div><!-- end info -->
-                        
-                <div class="alert-box alert-box--notice">
-                    <p>Notice Message. Your Message Goes Here.</p>
-                    <span class="alert-box__close"></span>
-                </div><!-- end notice -->
-            
-            </div>
-
-        </div> <!-- end row -->
-
-        <div class="row">
-
-            <div class="large-12 column">
-               <h3 class="h-add-bottom">Grid Columns Samples</h3>
-            </div>
-   
-        </div> <!-- Row End-->
-
-
-        <div class="row">
-   
-            <div class="large-4 mob-12 column">
-                <p>
-                Cras aliquet. Integer faucibus, eros ac molestie placerat, enim tellus varius lacus,
-                nec dictum nunc tortor id urna. Suspendisse dapibus ullamcorper pede. Vivamus ligula ipsum,
-                faucibus at, tincidunt eget, porttitor non, dolor. 
-                </p>
-             </div>
-   
-            <div class="large-4 mob-12 column">
-                <p>
-                Cras aliquet. Integer faucibus, eros ac molestie placerat, enim tellus varius lacus,
-                nec dictum nunc tortor id urna. Suspendisse dapibus ullamcorper pede. Vivamus ligula ipsum,
-                faucibus at, tincidunt eget, porttitor non, dolor. 
-                </p>
-            </div>
-   
-            <div class="large-4 mob-12 column">
-                <p>
-                Cras aliquet. Integer faucibus, eros ac molestie placerat, enim tellus varius lacus,
-                nec dictum nunc tortor id urna. Suspendisse dapibus ullamcorper pede. Vivamus ligula ipsum,
-                faucibus at, tincidunt eget, porttitor non, dolor. 
-                </p>
-            </div>
-   
-        </div>
-   
-        <div class="row">
-   
-            <div class="large-3 tab-6 mob-12 column">
-                <p>
-                Cras aliquet. Integer faucibus, eros ac molestie placerat, enim tellus varius lacus,
-                nec dictum nunc tortor id urna. Suspendisse dapibus ullamcorper pede. Vivamus ligula ipsum,
-                faucibus at, tincidunt eget, porttitor non, dolor. 
-                </p>
-            </div>
-   
-            <div class="large-3 tab-6 mob-12 column">
-                <p>
-                Cras aliquet. Integer faucibus, eros ac molestie placerat, enim tellus varius lacus,
-                nec dictum nunc tortor id urna. Suspendisse dapibus ullamcorper pede. Vivamus ligula ipsum,
-                faucibus at, tincidunt eget, porttitor non, dolor. 
-                </p>
-            </div>
-   
-            <div class="large-3 tab-6 mob-12 column">
-                <p>
-                Cras aliquet. Integer faucibus, eros ac molestie placerat, enim tellus varius lacus,
-                nec dictum nunc tortor id urna. Suspendisse dapibus ullamcorper pede. Vivamus ligula ipsum,
-                faucibus at, tincidunt eget, porttitor non, dolor. 
-                </p>
-            </div>
-   
-            <div class="large-3 tab-6 mob-12 column">
-                <p>
-                Cras aliquet. Integer faucibus, eros ac molestie placerat, enim tellus varius lacus,
-                nec dictum nunc tortor id urna. Suspendisse dapibus ullamcorper pede. Vivamus ligula ipsum,
-                faucibus at, tincidunt eget, porttitor non, dolor. 
-                </p>
-            </div>
-   
-        </div>
-   
-        <div class="row">
-   
-            <div class="large-6 mob-12 column">
-                <p>
-                Cras aliquet. Integer faucibus, eros ac molestie placerat, enim tellus varius lacus,
-                nec dictum nunc tortor id urna. Suspendisse dapibus ullamcorper pede. Vivamus ligula ipsum,
-                faucibus at, tincidunt eget, porttitor non, dolor. 
-                </p>
-            </div>
-   
-            <div class="large-6 mob-12 column">
-                <p>
-                Cras aliquet. Integer faucibus, eros ac molestie placerat, enim tellus varius lacus,
-                nec dictum nunc tortor id urna. Suspendisse dapibus ullamcorper pede. Vivamus ligula ipsum,
-                faucibus at, tincidunt eget, porttitor non, dolor. 
-                </p>
-            </div>
-   
-        </div>
-   
-        <div class="row">
-   
-            <div class="large-8 tab-7 mob-12 column">
-                <p>
-                Cras aliquet. Integer faucibus, eros ac molestie placerat, enim tellus varius lacus,
-                nec dictum nunc tortor id urna. Suspendisse dapibus ullamcorper pede. Vivamus ligula ipsum,
-                faucibus at, tincidunt eget, porttitor non, dolor. Integer faucibus, eros ac molestie placerat, enim tellus varius lacus,
-                nec dictum nunc tortor id urna. Suspendisse dapibus ullamcorper pede. Vivamus ligula ipsum,
-                faucibus at, tincidunt eget, porttitor non, dolor.
-                </p>
-            </div>
-   
-            <div class="large-4 tab-5 mob-12 column">
-                <p>
-                Cras aliquet. Integer faucibus, eros ac molestie placerat, enim tellus varius lacus,
-                nec dictum nunc tortor id urna. Suspendisse dapibus ullamcorper pede. Vivamus ligula ipsum,
-                faucibus at, tincidunt eget, porttitor non, dolor. 
-                </p>
-            </div>
-   
+<body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#education">Education</a></li>
+            <li><a class="smoothscroll" href="#research">Research</a></li>
+            <li><a class="smoothscroll" href="#misc">Misc.</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Hyeyeon Chung</h1>
+            <h2 style="color:white"> 정혜연 </h2>
+            <h3 style="font-size: 1.5em;">MS student <br>
+               <span>BioComputing Lab | GIST, Korea</span>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://https://www.linkedin.com/in/hyeyeon-chung-1099a9143/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://github.com/hyeyeon-chung"><i class="fa fa-github"></i></a></li>
+            </ul>
          </div>
-   
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2 style="font-size: 3em;">About Me</h2>
+
+            <p style="color: lightgrey; font-size: 1.2em;">I am a Ph.D. student at Harvard Astronomy and I am originally from Korea. My research interest lies in high energy astrophysics which spans from black hole accretion physics to Fast Radio Bursts (FRB).
+            </p>
+
+            <div class="row">
+
+
+               <div class="columns download">
+                  <p>
+                     <a href="https://docs.google.com/gview?url=https://github.com/hyerincho/CV/raw/master/HyerinCho_CV.pdf&embedded=true" class="button"><i class="fa fa-download"></i>My CV</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Education Section
+   ================================================== -->
+   <section id="education">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+<br>
+         <div class="three columns header-col">
+            <h1 style="color:white"><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3 style="color:rgb(201, 150, 235); font-size:1.8em;">Harvard University</h3>
+                  <p class="info" style="color:lightgrey; font-size: 1.3em">Ph.D. Candidate in Astrophysics <span>&bull;</span> <em class="date" style="font-size: 0.9em;">September 2020 - Present</em></p>
+                  <p style="color:lightgray; font-size:1.1em">
+                  Academic advisor: Ramesh Narayan
+                  </p>
+               </div>
+
+            </div> <!-- item end -->
+
+            <br>
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3 style="color:rgb(142, 107, 165); font-size:1.8em;">Gwangju Institute of Science and Technology (GIST)</h3>
+                  <p class="info" style="color:lightgrey; font-size: 1.3em">B.S. Physics major / Math minor <span>&bull;</span> <em class="date" style="font-size: 0.9em;">March 2015 - February 2020</em></p>
+                  <p style="color:lightgray; font-size:1.1em">
+                  <i>cum laude</i> <br>
+                  Senior thesis advisor: Keun-young Kim
+                  </p>
+               </div>
+
+            </div> <!-- item end -->
+
+            <br>
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3 style="color:rgb(142, 107, 165); font-size:1.8em;">California Institute of Technology</h3>
+                  <p class="info" style="color:lightgrey; font-size: 1.3em">Study Abroad Program <span>&bull;</span> <em class="date" style="font-size: 0.9em;">September 2017 - December 2017</em></p>
+                  <p style="color:lightgray; font-size:1.1em">
+                  </p>
+               </div>
+
+            </div> <!-- item end -->
+
+            <br>
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3 style="color:rgb(142, 107, 165); font-size:1.8em;">University of California, Berkeley</h3>
+                  <p class="info" style="color:lightgrey; font-size: 1.3em">Summer Session <span>&bull;</span> <em class="date" style="font-size: 0.9em;">June 2016 - August 2016</em></p>
+                  <p style="color:lightgray; font-size:1.1em">
+                  </p>
+               </div>
+
+            </div> <!-- item end -->
+
+            <br>
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+   </section> <!-- Education Section End-->
+
+   <!-- Research Section
+   ================================================== -->
+   <section id="research">
+      <!-- Research
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1 style="color:white"><span>Research</span></h1>
+         </div>
+
+         <a href="https://ui.adsabs.harvard.edu/search/p_=0&q=orcid%3A%220000-0002-2858-9481%22&sort=date%20desc%2C%20bibcode%20desc" class="button">ads</a>
+         <a href="https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=Hyerin+Cho&terms-0-field=author&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first" class="button">arXiv</a>
+         <a href="https://orcid.org/0000-0002-2858-9481" class="button">ORCiD</a>
+
+         <div class="twelve columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3 style="color:rgb(142, 107, 165); font-size:1.8em;">Impacts of galactic perturbers on fueling the MBH with a resolution appropriate accretion model
+                  </h3>
+                  <p class="info" style="color:lightgrey; font-size: 1.3em">Visiting Student Intern <span>&bull;</span> <em class="date" style="font-size: 0.9em;">March 2020 - August 2020</em></p>
+                  <p style="color:lightgray; font-size:1.1em">
+                  Supervisor: Prof. Ji-hoon Kim (Seoul National University)<br>
+                  Work still in progress
+                  </p>
+               </div>
+
+            </div> <!-- item end -->
+            <br>
+
+            <div class="row item">
+
+               <div class="fourteen columns">
+
+                  <h3 style="color:rgb(142, 107, 165); font-size:1.8em;">Localized ASKAP FRBs' high time resolution analysis</h3>
+                  <p class="info" style="color:lightgrey; font-size: 1.3em">Visiting Research Associate <span>&bull;</span> <em class="date" style="font-size: 0.9em;">December 2018 - June 2019</em></p>
+                  <p style="color:lightgray; font-size:1.1em">
+                  Supervisors: <br>
+                  Prof. Jean-Pierre Macquart, Dr. Clancy James, Dr. Ian Morrison (Curtin University)<br>
+                  Prof. Matthew Bailes, Prof. Adam Deller, Dr. Ryan Shannon (Swinburne University)<br><br>
+                  J. X. Prochaska et. al. 2019 <a href="https://ui.adsabs.harvard.edu/link_gateway/2019Sci...366..231P/PUB_PDF">Science</a>, 365 <br>
+                  <b style="font-weight:900;font-size:1em;">Hyerin Cho</b> et. al. 2020 <a href="https://ui.adsabs.harvard.edu/link_gateway/2020ApJ...891L..38C/PUB_PDF">ApJL</a>, 891 <br>
+                  M. W. Sammons et. al. 2020 <a href="https://ui.adsabs.harvard.edu/link_gateway/2020ApJ...900..122S/PUB_PDF">ApJ</a>, 900 <br>
+                  S.  Bhandari  et. al. 2020, accepted to ApJL <a href="https://arxiv.org/abs/2008.12488">arXiv:2008.12488</a>
+                  </p>
+               </div>
+
+            </div> <!-- item end -->
+            <br>
+
+            <div class="row item">
+
+               <div class="seventeen columns">
+
+                  <h3 style="color:rgb(142, 107, 165); font-size:1.8em;">Numerical modeling of time-independent accretion discs with instabilities</h3>
+                  <p class="info" style="color:lightgrey; font-size: 1.3em">Summer Undergraduate Research Fellow (SURF) <span>&bull;</span> <em class="date" style="font-size: 0.9em;">June 2018 - August 2018</em></p>
+                  <p style="color:lightgray; font-size:1.1em">
+                  Supervisor: Prof. Sterl Phinney (Caltech) <br>
+                  <a href="Cho_SURF_2018_final.pdf">Final Report</a>
+                  </p>
+               </div>
+
+            </div> <!-- item end -->
+            <br>
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Skills
+      ----------------------------------------------- 
+      <div class="row skill">
+         <div class="three columns header-col">
+            <h1 style="color:white"><span>Skills</span></h1>
+         </div>
+         <div class="nine columns main-col">
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+            voluptatem sequi nesciunt.
+            </p>
+				<div class="bars">
+				   <ul class="skills">
+					   <li><span class="bar-expand photoshop"></span><em>Python</em></li>
+                  <li><span class="bar-expand illustrator"></span><em>Illustrator</em></li>
+						<li><span class="bar-expand wordpress"></span><em>Wordpress</em></li>
+						<li><span class="bar-expand css"></span><em>CSS</em></li>
+						<li><span class="bar-expand html5"></span><em>HTML5</em></li>
+                  <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
+					</ul>
+				</div>end skill-bars 
+			</div>  main-col end 
+      </div>  End skills -->
+
+   </section> <!-- Research Section End-->
+
+
+   <!-- Misc. Section 
+   ================================================== -->
+   <section id="misc">
+
+      <div class="row">
+<!--articles, talks, study groups, dance team-->
+         <div class="twelve columns collapsed">
+
+            <h1>Misc.</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/grad2020_screenshot.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>2020 Graduate school application seminar</h5>
+                              <p>2020.09.25. Zoom</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+                </div> <!-- item end -->
+                
+                <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/ilju.JPG">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Ilju Foundation Study Abroad PhD Scholarship</h5>
+                              <p>2020.07.15.</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+                </div> <!-- item end -->
+                
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/harvard.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>In the news - graduate school offers</h5>
+                              <p>2020.04.09.</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+                <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/SNL_GIST.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Science Night Live (SNL) talk</h5>
+                              <p>2019.10.14. at GIST</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-05" title="">
+                        <img alt="" src="images/science_paper.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>In the news - publication in Science</h5>
+                              <p>2019.09.29.</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-06" title="">
+                        <img alt="" src="images/dance_class.PNG">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Instructor of a dance class</h5>
+                              <p>2018.07.13. at Caltech</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-07" title="">
+                        <img alt="" src="images/dance_show2.PNG">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Dance performance</h5>
+                              <p>2018.05.24. in GIST</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-08" title="">
+                        <img alt="" src="images/nameday_2.jpeg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Performance at a professional baseball game</h5>
+                              <p>2016.05.27. at Gwangju-Kia Champions Field</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div>  <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/grad2020.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>2020 Gradaute school application seminar</h4>
+			      <p>I hosted a seminar for GIST college students who are interested in applying for grad schools in the US. I gathered a total of 132 participants and invited more than nine GIST alums who are/were already studying abroad at Stanford, Caltech, UCSB, etc.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Hosted seminars</span>
+		      </div>
+
+            <div class="link-box">
+               <!--<a href="http://www.behance.net">Details</a>-->
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/snl_poster.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Science Night Live (SNL) talk</h4>
+			      <p>I gave a talk in GIST in 2019, about my first publication of a Fast Radio Burst (FRB) paper in the journal Science.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Talks</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://www.gist.ac.kr/kr/html/sub06/060101.html?mode=V&no=194012&GotoPage=6">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/ilju_all.JPG" alt="" />
+
+		      <div class="description-box">
+			      <h4>Ilju Foundation Study Abroad PhD Scholarship</h4>
+			      <p>I am a proud recipient of the Ilju Foundation Study Abroad PhD Scholarship, which is a very competitive scholarship awarding USD $30000 per year for four years during a Ph.D. program. I was chosen to be one of the 7 recipients out of 184 applicants. </p>
+               <span class="categories"><i class="fa fa-tag"></i>Awards</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://www.sedaily.com/NewsVIew/1Z5BR156D9">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/harvard.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>In the news</h4>
+			      <p>The news covered my story of getting several graduate school offers from Harvard, Princeton, Caltech, etc.</p>
+               <span class="categories"><i class="fa fa-tag"></i>In the news</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://www.yna.co.kr/view/AKR20200409044300054">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/science_paper.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>In the news</h4>
+			      <p>The news covered my first scientific publication for the journal Science. I am a co-author of the paper on a second-localized non-repeating fast radio burst (FRB).</p>
+               <span class="categories"><i class="fa fa-tag"></i>In the news</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://www.fnnews.com/news/201909291208576695">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-05 End -->
+
+         <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/dance_class.PNG" alt="" />
+
+		      <div class="description-box">
+			      <h4>Instructor at a dance class</h4>
+			      <p>I was a special instructor for a hiphop dance class at Caltech.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Dance</span>
+		      </div>
+
+            <div class="link-box">
+               <!--<a href="http://www.behance.net">Details</a>-->
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-06 End -->
+
+         <div id="modal-07" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/dance_show.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>2018 dance show</h4>
+			      <p>I was a performance director for GIST's dance club, and directed the dance show.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Dance</span>
+		      </div>
+
+            <div class="link-box">
+               <!--<a href="http://www.behance.net">Details</a>-->
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-07 End -->
+
+         <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/nameday_1.JPG" alt="" />
+
+		      <div class="description-box">
+			      <h4>Performance at a baseball game</h4>
+			      <p>With my dance club members, I performed during a professional baseball game's halftime.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Dance</span>
+		      </div>
+
+            <div class="link-box">
+               <!--<a href="http://www.behance.net">Details</a>-->
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Research Section End-->
+
+
+   <!-- Call-To-Action Section
+   ================================================== 
+   <section id="call-to-action">
+      <div class="row">
+         <div class="two columns header-col">
+            <h1><span>Get Hosting.</span></h1>
+         </div>
+         <div class="seven columns">
+            <h2><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Host This Template on Dreamhost.</a></h2>
+            <p>Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
+					Get <span>$50 off</span> when you sign up with the promocode <span>STYLESHOUT</span>. 
+					</p>
+         </div>
+         <div class="three columns action">
+            <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT" class="button">Sign Up Now</a>
+         </div>
+      </div>
+   </section> Call-To-Action Section End-->
+
+
+   <!-- Testimonials Section
+   ==================================================
+   <section id="testimonials">
+      <div class="text-container">
          <div class="row">
-   
-            <div class="large-3 tab-5 mob-12 column">
-                <p>
-                Cras aliquet. Integer faucibus, eros ac molestie placerat, enim tellus varius lacus,
-                nec dictum nunc tortor id urna. Suspendisse dapibus ullamcorper pede. Vivamus ligula ipsum,
-                faucibus at. 
-                </p>
-             </div>
-   
-            <div class="large-9 tab-7 mob-12 column">
-                <p>
-                Cras aliquet. Integer faucibus, eros ac molestie placerat, enim tellus varius lacus,
-                nec dictum nunc tortor id urna. Suspendisse dapibus ullamcorper pede. Vivamus ligula ipsum,
-                faucibus at, tincidunt eget, porttitor non, dolor.Integer faucibus, eros ac molestie placerat, enim tellus varius lacus,
-                nec dictum nunc tortor id urna. Suspendisse dapibus ullamcorper pede. Vivamus ligula ipsum,
-                faucibus at, tincidunt eget, porttitor non, dolor. Integer faucibus, eros ac molestie placerat, enim tellus varius lacus,
-                nec dictum nunc tortor id urna. Suspendisse dapibus ullamcorper pede. Vivamus ligula ipsum,
-                faucibus at, tincidunt eget, porttitor non, dolor.
-                </p>
-             </div>
-   
+            <div class="two columns header-col">
+               <h1><span>Client Testimonials</span></h1>
+            </div>
+            <div class="ten columns flex-container">
+               <div class="flexslider">
+                  <ul class="slides">
+                     <li>
+                        <blockquote>
+                           <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
+                           to do what you believe is great work. And the only way to do great work is to love what you do.
+                           If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+                           </p>
+                           <cite>Steve Jobs</cite>
+                        </blockquote>
+                     </li>
+                     <li>
+                        <blockquote>
+                           <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                           Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                           nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                           </p>
+                           <cite>Mr. Adobe</cite>
+                        </blockquote>
+                     </li> 
+                  </ul>
+               </div>
+            </div> 
          </div> 
+       </div> 
+   </section>  Testimonials Section End-->
 
-    </section> <!-- end s-styles -->
 
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
 
-    <!-- contact
-    ================================================== -->
-    <section id="contact" class="s-contact target-section">
-
-        <div class="row s-contact__header">
-            <div class="column large-12">
-                <h3 class="section-header-allcaps">Say Hello</h3>
+      <!--
+         <div class="row section-head">
+            <div class="two columns header-col">
+               <h1 style="color: white;"><span>Get In Touch.</span></h1>
             </div>
-        </div>
+         </div>
+      -->
 
-        <div class="row s-contact__content">
+         <div class="row">
+<!--
+            <div class="eight columns">
+                form
+               <form action="" method="post" id="contactForm" name="contactForm">
+					<fieldset>
+                  <div>
+						   <label for="contactName">Name <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactName" name="contactName">
+                  </div>
+                  <div>
+						   <label for="contactEmail">Email <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
+                  <div>
+						   <label for="contactSubject">Subject</label>
+						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                  </div>
+                  <div>
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+                  <div>
+                     <button class="submit">Submit</button>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                  </div>
+					</fieldset>
+				   </form>  Form End -->
 
-            <div class="column large-7 medium-12">
-
-                <h4 class="huge-text">
-                Have a new project in mind? Let's collaborate and build something awesome. 
-                Let's turn that idea to an even greater product :)
-                </h4>
-
+               <!-- contact-warning 
+               <div id="message-warning"> Error boy</div>
+                contact-success 
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				   </div>
+            
             </div>
+-->
 
-            <div class="column large-4 medium-12">
+            <aside class="eight columns footer-widgets">
 
-                <div class="row contact-infos">
-                    <div class="column large-12 medium-6 tab-12">
-                        <div class="contact-block">
-                            <h5 class="contact-block__header">
-                                Email
-                            </h5>
-                            <p class="contact-block__content">
-                                <a class="mailtoui" href="mailto:sayhello@ceevee.com">sayhello@ceevee.com</a>
-                            </p>
-                        </div> <!-- end contact-block -->
-                    </div>
-                    <div class="column large-12 medium-6 tab-12">
-                        <div class="contact-block">
-                            <h5 class="contact-block__header">
-                                Phone
-                            </h5>
-                            <p class="contact-block__content">
-                                <a href="tel:+1975432345">+197 543 2345</a>
-                            </p>
-                        </div> <!-- end contact-block -->
-                    </div>
+               <div class="columns contact-details">
+                  <br>
+                  <h2 style="font-size: 2em;color:white;">Contact Details</h2>
+                  <p class="address" style="color: lightgrey; font-size: 1.2em;">
+						   <span>Hyerin Cho</span><br>
+						   <span>14 Osan-ro 160beon-gil<br>
+                        Osan-si, Gyeonggi-do, 18143, Rep. of Korea
+                     </span><br>
+                     <span><a href="mailto:hyerin.cho@cfa.harvard.edu">hyerin.cho@cfa.harvard.edu</a>, <a href="mailto:chyerin1996@gmail.com">chyerin1996@gmail.com</a></span><br>
+						   <span>(+82)10-4657-2461</span><br>
+                     <span>hyerincho.com</span>
+					   </p>
 
-                    <div class="column large-12">
-                        <a href="mailto:sayhello@ceevee.com" class="mailtoui btn btn--primary h-full-width">Let's Talk</a>
-                    </div>
-                </div> <!-- end contact-infos -->
+               </div>
 
-            </div>
-        </div> <!-- s-contact__content -->
+            
 
-    </section> <!-- end s-contact -->
-    
+            </aside>
 
-    <!-- footer
-    ================================================== -->
-    <footer class="s-footer">
-        <div class="row">
-            <div class="column large-4 medium-6 w-1000-stack s-footer__social-block">
-                <ul class="s-footer__social">
-                    <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                    <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                    <li><a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                    <li><a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
-                    <li><a href="#0"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
+      </div>
 
-            <div class="column large-7 medium-6 w-1000-stack ss-copyright">
-                <span>© Copyright Ceevee 2021</span> 
-                <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
-            </div>
-        </div>
-
-        <div class="ss-go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"/></svg>
-             </a>
-        </div> <!-- end ss-go-top -->
-    </footer>
+   </section> <!-- Contact Section End-->
 
 
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://www.linkedin.com/in/hyerin-cho-astro"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://github.com/hyerincho"><i class="fa fa-github"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2014 CeeVee</li>
+               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
 
 </body>
 
